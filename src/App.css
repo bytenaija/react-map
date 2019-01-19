@@ -33,8 +33,15 @@
   padding: 0 auto !important;
   margin: 0 !important;
   max-width: 95% !important;
+  background: #84CEEB
+}
+body{
+  background: #84CEEB
 }
 
+#root{
+  background: #84CEEB
+}
 .form [class^=col-] {
   padding: 0 !important;
   padding-left: 20px !important;
