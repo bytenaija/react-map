@@ -1,0 +1,56 @@
+
+
+
+.form{
+  margin-bottom: .5rem !important;
+  margin-top: .5rem !important;
+  flex: 1 !important;
+  justify-content: space-around !important;
+  align-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  width: 100% !important;
+  
+}
+
+.container{
+  flex: 1;
+  padding: 0 !important;
+  margin: 0 !important;
+  
+  
+}
+
+.map{
+  height: 70% !important;
+  width: 70% !important;
+  margin: 0 !important;
+}
+
+@media(max-width: 700px){
+  .container{
+ max-width: 700px;
+  padding: 0 auto !important;
+  margin: 0 !important;
+  max-width: 95% !important;
+}
+
+.form [class^=col-] {
+  padding: 0 !important;
+  padding-left: 20px !important;
+  margin-bottom: 5px !important;
+}
+
+.form{
+  padding-left: 20px !important;
+}
+
+button{
+  height: 50px;
+}
+
+input{
+  height: 50px !important;
+}
+
+}
