@@ -1,4 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Instructions
+1. Get a Google Maps JavaScript API Key following the instructions at https://developers.google.com/maps/documentation/javascript/get-api-key
+2. Add the API key into the src/config file as the value for googleKey
+3. run npm install to install the dependencies;
+4. type just one place id or multiple place ids like this: ChIJb49qeKiQRhARqP-E6idWjrA;ChIJ8azPeWLTQBARoN9YV8AQqoQ;ChIJtcaxrqlZwokRfwmmibzPsTU
+
+You can try the following place ids:
+1. ChIJb49qeKiQRhARqP-E6idWjrA if my wife's home town
+2. ChIJ8azPeWLTQBARoN9YV8AQqoQ the ancient city of Benin
+3. ChIJtcaxrqlZwokRfwmmibzPsTU the Empire State building
 
 ## Available Scripts
 
@@ -9,13 +18,6 @@ In the project directory, you can run:
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
